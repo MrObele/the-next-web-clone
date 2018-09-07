@@ -136,23 +136,33 @@ Headline Styles
 .overlay div
 {
   position: absolute;
-  bottom: 220px;
+  bottom: 65px;
   left: 20px;
-  color: white;
-  font-size: 40px;
+ 
 }
-
+.tnw-logo{
+    background: url('https://rawgit.com/csrail/next-web-mock/master/images/icons/tnw.svg') no-repeat;
+}
+.overlay div p{
+    color: white;
+    font-size: 61px;
+    font-weight: 700;
+}
+.overlay div p.topic{
+    color: white;
+    font-size: 20px;
+}
 .sub-headline
 {
     margin: 5px;
   float: left;
-  width: 30%;
+  width: 35%;
   height: 100%;
 }
 
 .sub-headline1
 {
-    margin-bottom: 10px;
+
   height: 50%;
   background: url('../images/sub-headline1.png') no-repeat;
   background-size: cover;
