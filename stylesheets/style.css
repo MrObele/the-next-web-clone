@@ -1,34 +1,111 @@
+/* 
+Misc
+*/
+
+a
+{
+  color: inherit;
+}
+
+.clear
+{
+  clear: both;
+}
+
+
+
+/* 
+Header Styles
+*/
+
+
+header{
+  height:100px; 
+}
+
+.header-top{
+  height: 40%;
+  background: #000;
+  color: #fff;
+  line-height: 34px;
+}
+
+.header-top article:first-child{
+ float: left;
+ margin-left: 20px;
+}
+.header-top article:nth-child(2){
+  float: right;
+}
+
+.header-top a 
+{
+  margin-left: 12px;
+}
+
+.header-top a:first-child 
+{
+  margin-left: 0;
+}
+
+
+
+.header-bottom{
+  padding-top: 20px;
+  height: 60%;
+}
+
+article.social
+{
+  float: right;
+}
+
+nav
+{
+  display: inline-block;
+}
+
+nav li
+{
+  display: inline-block;
+  padding-right: 12px;
+  padding-left: 12px;
+}
+
+nav li:first-child
+{
+  padding-left: 20px;
+}
+
+
+.social i 
+{
+
+  padding-right: 12px;
+  padding-left: 12px;
+}
+
+/* 
+Spacer Style
+*/
+
+.spacer
+{
+  background: #ffc600;
+  padding: 12px 20px;
+  
+}
+
 
 /* 
 Headline Styles
 */
 
-header{
-    height:100px; 
-}
-
-.header-top{
-    height: 40%;
-    background: #000;
-    color: #fff;
-}
-
-.header-top article:first-child{
-   float: left;
-}
-.header-top article:nth-child(2){
-    float: right;
- }
-
-.header-bottom{
-    height: 60%;
-}
 .headline 
 {
   width: auto;
   height: 400px;
 }
-
 
 
 .main-headline
@@ -46,6 +123,23 @@ header{
     width: 100%;
     height: 100%;
     background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.35), rgba(0, 0, 0, 0.91));
+}
+
+.overlay .author
+{
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+}
+
+.overlay div
+{
+  position: absolute;
+  bottom: 220px;
+  left: 20px;
+  color: white;
+  font-size: 40px;
 }
 
 .sub-headline
@@ -70,3 +164,4 @@ header{
   background: url('../images/sub-headline2.jpg') no-repeat;
   background-size: cover;
 }
+
