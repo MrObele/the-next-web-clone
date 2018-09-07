@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Shentox;
+  src: url('../fonts/Shentox/Shentox.ttf');
+  }
+
 /* 
 Misc
 */
@@ -104,7 +109,7 @@ Headline Styles
 .headline 
 {
   width: auto;
-  height: 400px;
+  height: 440px;
 }
 
 
@@ -142,19 +147,25 @@ Headline Styles
 }
 .tnw-logo{
     background: url('https://rawgit.com/csrail/next-web-mock/master/images/icons/tnw.svg') no-repeat;
+    width: 391px;
+    height: 95px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
 }
 .overlay div p{
-    color: white;
-    font-size: 61px;
-    font-weight: 700;
+  color: white;
+  font-size: 61px;
+  font-weight: 700;
 }
-.overlay div p.topic{
+.overlay p.topic{
     color: white;
-    font-size: 20px;
+    font-size: 16px;
+    font-family: Shentox, sans-serif;
 }
 .sub-headline
 {
-    margin: 5px;
+  margin: 5px;
   float: left;
   width: 35%;
   height: 100%;
@@ -162,7 +173,7 @@ Headline Styles
 
 .sub-headline1
 {
-
+  position: relative;
   height: 50%;
   background: url('../images/sub-headline1.png') no-repeat;
   background-size: cover;
@@ -170,8 +181,26 @@ Headline Styles
 
 .sub-headline2
 {
+  position: relative;
  height: 50%;
   background: url('../images/sub-headline2.jpg') no-repeat;
   background-size: cover;
 }
 
+.sub-headline .overlay .topic 
+{
+  position: absolute;
+  color: #fff;
+  left: 20px;
+  top: 35%;
+}
+
+.sub-headline .overlay .sub-teaser
+{
+  position: absolute;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+  left: 20px;
+  top: 45%;
+}
