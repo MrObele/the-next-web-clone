@@ -286,11 +286,11 @@ LATEST NEWS
 .funding h2{
   display: inline-block;
 }
-p.latest-news-right{
+/* p.latest-news-right{
   float: right;
-}
+} */
 
-.funding-top h3{
+/* .funding-top h3{
   background: #FF4422;
   color: #fff;
   font-weight: 700;
@@ -298,22 +298,63 @@ p.latest-news-right{
   padding: 11px;
   font-size: 1.4em;
   text-align: center;
-}
-div.funding-top img{
+} */
+/* div.funding-top img{
   width: 19%;
   height: 23%;
   position: absolute;
   left: 7%;
   top: 6%;
-}
+} */
 
 .funding article{
   position: relative;
 }
 
-div.funding-top p{
+/* div.funding-top p{
   background: #FFEBE8;
   padding: 11px;
   margin: 0;
   text-align: center
+} */
+
+div.orange-back
+{
+  background: #FF4422;
+  width: 100%;
+  height: 40px;
 }
+
+
+div.pink-back
+{
+  background: #FFEBE8;
+  margin-top: 0;
+  width: 100%;
+  height: 60px;
+}
+
+div.funding-top-top
+{
+  width: 100%;
+  position: absolute;
+  top: 8px;
+  left: 18px;
+
+}
+
+div.funding-top-top img {
+ display: inline-block;
+ width: 25%;
+ margin: 5px;
+ float: left;
+}
+
+.article-decsription{
+  display: inline-block;
+    float: left;
+    margin-left: 8px;
+}
+
+
+
