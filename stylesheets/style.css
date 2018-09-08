@@ -280,3 +280,40 @@ LATEST NEWS
 .latest-news article a:hover {
   text-decoration: underline;
 }
+
+
+/* Latest funding */
+.funding h2{
+  display: inline-block;
+}
+p.latest-news-right{
+  float: right;
+}
+
+.funding-top h3{
+  background: #FF4422;
+  color: #fff;
+  font-weight: 700;
+  width: 100%;
+  padding: 11px;
+  font-size: 1.4em;
+  text-align: center;
+}
+div.funding-top img{
+  width: 19%;
+  height: 23%;
+  position: absolute;
+  left: 7%;
+  top: 6%;
+}
+
+.funding article{
+  position: relative;
+}
+
+div.funding-top p{
+  background: #FFEBE8;
+  padding: 11px;
+  margin: 0;
+  text-align: center
+}
