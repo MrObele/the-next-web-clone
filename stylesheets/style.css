@@ -297,25 +297,13 @@ p.latest-news-right{
   font-weight: 700;
   font-size: 1.2em;
 }
-/* div.funding-top img{
-  width: 19%;
-  height: 23%;
-  position: absolute;
-  left: 7%;
-  top: 6%;
-} */
+
 
 .funding article{
   position: relative;
 
 }
 
-/* div.funding-top p{
-  background: #FFEBE8;
-  padding: 11px;
-  margin: 0;
-  text-align: center
-} */
 
 div.orange-back
 {
@@ -358,7 +346,8 @@ div.funding-top-top img {
   margin-top: -7%;
   padding: 16px;
   background: #FFFAF8;
-  border-bottom: 1px solid rgba(255,68,34,.25)
+  border-bottom: 1px solid rgba(255,68,34,.25);
+
 }
 
 .latest-bottom-links{
