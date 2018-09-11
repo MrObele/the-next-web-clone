@@ -53,7 +53,7 @@ header{
 }
 
 .header-logo{
-  display: inline-block;
+  display: none;
 }
 
 .header-top a:first-child 
@@ -152,7 +152,7 @@ Headline Styles
   width: 63%;
   float: left;
   height: 100%;
-  background-size: cover;
+  background-size: 100%;
   position: relative;
   margin: 5px;
 }
@@ -483,6 +483,8 @@ article.copyright i {
 }
 
 /* RESPONSIVENESS */
+
+
 @media only screen and (max-width: 769px) {
   /* HEADER */
   div.bars 
@@ -499,10 +501,24 @@ article.copyright i {
   .social>i {
     display: none;
   }
+
+  .header-logo{
+    display: inline-block;
+  }
   
+  div.search-icon {
+        padding-top: 14px;
+    padding-bottom: 17px;
+}
+
+
 /* MAIN HEADLINE */
   div.tnw-logo {
     display: none;
+  }
+
+  .headline {
+    width: 99%;
   }
 
   .main-headline, .sub-headline {
@@ -535,6 +551,9 @@ p.latest-news-right a {
 
 
 @media only screen and (max-width: 426px) {
+  .headline {
+    width: 98%;
+  }
 
   .latest-news article {
     width: 100%;
