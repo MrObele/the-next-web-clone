@@ -240,12 +240,14 @@ LATEST NEWS
 }
 
 .latest-news article p {
-  margin: 10px auto;
+  margin: 22px auto;
   font-weight: 600;
 }
 .latest-news article span{
   color: #aaa;
   font-size: .9em;
+  font-family: Shentox, sans-serif;
+  font-size: 12px;
 
 }
 
@@ -286,19 +288,15 @@ LATEST NEWS
 .funding h2{
   display: inline-block;
 }
-/* p.latest-news-right{
+p.latest-news-right{
   float: right;
-} */
+}
 
-/* .funding-top h3{
-  background: #FF4422;
+.funding-top-top h3{
   color: #fff;
   font-weight: 700;
-  width: 100%;
-  padding: 11px;
-  font-size: 1.4em;
-  text-align: center;
-} */
+  font-size: 1.2em;
+}
 /* div.funding-top img{
   width: 19%;
   height: 23%;
@@ -309,6 +307,7 @@ LATEST NEWS
 
 .funding article{
   position: relative;
+
 }
 
 /* div.funding-top p{
@@ -354,6 +353,26 @@ div.funding-top-top img {
   display: inline-block;
     float: left;
     margin-left: 8px;
+}
+.latest-link{
+  margin-top: -7%;
+  padding: 16px;
+  background: #FFFAF8;
+  border-bottom: 1px solid rgba(255,68,34,.25)
+}
+
+.latest-bottom-links{
+  padding: 16px;
+  background: #FFFAF8;
+}
+.latest-bottom-links a{
+  display: block;
+  font-size: 13px;
+  line-height: 20px;
+  color: #555;
+}
+.latest-bottom-links span{
+color: #aaa;
 }
 
 
