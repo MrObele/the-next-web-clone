@@ -480,13 +480,25 @@ article.copyright i {
   color: #f00;
 }
 
-
+/* RESPONSIVENESS */
 @media only screen and (max-width: 769px) {
+  /* HEADER */
+  div.bars 
+  {
+    color: #f42;
+    display: inline-block;
+  }
+  
 
-  nav{
+  .header-top, .header-bottom nav {
     display: none;
   }
 
+  .social>i {
+    display: none;
+  }
+  
+/* MAIN HEADLINE */
   div.tnw-logo {
     display: none;
   }
@@ -499,6 +511,23 @@ article.copyright i {
     width: 100%;
    
   }
+  .overlay div p {
+    font-size: 2em; 
+}
+
+/* LATEST NEWS */
+p.latest-news-right {
+  float: none;
+  margin-bottom: 12px;
+}
+p.latest-news-right a {
+  display: block;
+  border: none;
+  line-height: 1.5em;
+}
+.latest-news article {
+  width: 50%;
+}
 }
 
 
