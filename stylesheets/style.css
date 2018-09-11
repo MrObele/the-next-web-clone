@@ -349,10 +349,21 @@ div.funding-top-top img {
   border-bottom: 1px solid rgba(255,68,34,.25);
 
 }
+div.latest-link a{
+  color: #656262;
+}
+div.latest-link a i{
+ margin-right: 10px;
+}
+div.latest-link a:hover{
+  text-decoration: none;
+  color: #333;
+}
 
 .latest-bottom-links{
   padding: 16px;
   background: #FFFAF8;
+  min-height: 100px;
 }
 .latest-bottom-links a{
   display: block;
@@ -362,6 +373,40 @@ div.funding-top-top img {
 }
 .latest-bottom-links span{
 color: #aaa;
+}
+
+/* FOOTER */
+
+footer{
+  width: 100%;
+  background: #000;
+  height: 250px;
+  text-align: center;
+}
+footer article i{
+  background: #333;
+  border-radius: 50%;
+  display: block;
+  height: 40px;
+  padding: 12px;
+  text-align: center;
+  width: 40px;
+  color: white;
+  margin: auto 0.5em;
+}
+.footer-socials{
+  padding: 3em 0 2em;
+}
+
+.footer-links {
+  padding: 3em 0 2em;
+}
+.footer-links a{
+  font-family: Shentox;
+  color: #aaa;
+}
+.footer-links a:hover{
+  color: #fff;
 }
 
 
