@@ -34,6 +34,7 @@ header{
   background: #000;
   color: #fff;
   line-height: 34px;
+  padding-right: 12px;
 }
 
 .header-top article:first-child{
@@ -67,10 +68,22 @@ header{
 
 
 .header-bottom{
-  padding-top: 20px;
   height: 60%;
+  font-family: Shentox;
+  color: #aaa;
 }
 
+.header-bottom nav{
+  padding-top: 20px;
+}
+
+div.search-icon{
+    display: inline-block;
+    border-left: 1px solid #8080805c;
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 23px;
+}
 article.social
 {
   float: right;
@@ -185,7 +198,7 @@ Headline Styles
 .sub-headline1
 {
   position: relative;
-  height: 50%;
+  height: 49%;
   background: url('../images/sub-headline1.png') no-repeat;
   background-size: cover;
 }
@@ -193,7 +206,8 @@ Headline Styles
 .sub-headline2
 {
   position: relative;
- height: 50%;
+ height: 49%;
+ margin-top: 2%;
   background: url('../images/sub-headline2.jpg') no-repeat;
   background-size: cover;
 }
@@ -302,7 +316,14 @@ LATEST NEWS
 p.latest-news-right{
   float: right;
 }
+p.latest-news-right a{
+  color: #f42;
+  margin-right: 23px;
+}
 
+.latest-news h2:hover, p.latest-news-right a:hover{
+color: #000;
+}
 .funding-top-top h3{
   color: #fff;
   font-weight: 700;
