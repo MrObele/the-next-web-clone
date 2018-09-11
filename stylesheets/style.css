@@ -317,9 +317,17 @@ p.latest-news-right{
   float: right;
 }
 p.latest-news-right a{
+  border-left: 1px solid #f42;
   color: #f42;
+  padding-left: 23px;
   margin-right: 23px;
 }
+
+p.latest-news-right a:first-child
+{
+  border-left: none;
+}
+
 
 .latest-news h2:hover, p.latest-news-right a:hover{
 color: #000;
