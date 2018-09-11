@@ -26,7 +26,7 @@ Header Styles
 
 
 header{
-  height:100px; 
+  height:auto; 
 }
 
 .header-top{
@@ -84,6 +84,13 @@ div.search-icon{
     padding-top: 20px;
     padding-bottom: 23px;
 }
+
+div.bars 
+{
+  color: #f42;
+  display: none;
+}
+
 article.social
 {
   float: right;
@@ -179,12 +186,12 @@ Headline Styles
 }
 .overlay div p{
   color: white;
-  font-size: 61px;
+  font-size: 3.81em;
   font-weight: 700;
 }
 .overlay p.topic{
     color: white;
-    font-size: 16px;
+    font-size: 1em;
     font-family: Shentox, sans-serif;
 }
 .sub-headline
@@ -473,5 +480,78 @@ article.copyright i {
   color: #f00;
 }
 
+
+@media only screen and (max-width: 769px) {
+
+  nav{
+    display: none;
+  }
+
+  div.tnw-logo {
+    display: none;
+  }
+
+  .main-headline, .sub-headline {
+    width: 100%;
+  }
+
+  .sub-headline1, .sub-headline2 {
+    width: 100%;
+   
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+@media only screen and (max-width: 426px) {
+
+  div.bars 
+  {
+    color: #f42;
+    display: inline-block;
+  }
+  
+
+  .header-top, .header-bottom nav {
+    display: none;
+  }
+
+  .social>i {
+    display: none;
+  }
+
+  div.tnw-logo {
+    display: none;
+  }
+  .main-headline, sub-headline {
+    width: 100%;
+  }
+
+} */
 
 
