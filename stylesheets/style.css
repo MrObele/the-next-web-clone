@@ -52,7 +52,9 @@ header{
   opacity: 0.6;
 }
 
-
+.header-logo{
+  display: inline-block;
+}
 
 .header-top a:first-child 
 {
@@ -532,55 +534,13 @@ p.latest-news-right a {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
 @media only screen and (max-width: 426px) {
 
-  div.bars 
-  {
-    color: #f42;
-    display: inline-block;
-  }
-  
-
-  .header-top, .header-bottom nav {
-    display: none;
-  }
-
-  .social>i {
-    display: none;
-  }
-
-  div.tnw-logo {
-    display: none;
-  }
-  .main-headline, sub-headline {
+  .latest-news article {
     width: 100%;
   }
-
-} */
-
+  .latest-link {
+    margin-top: -4%;
+}
+}
 
