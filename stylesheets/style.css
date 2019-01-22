@@ -1,6 +1,6 @@
 @font-face {
   font-family: Shentox;
-  src: url('../fonts/Shentox/Shentox.ttf');
+  src: url('../assets/fonts/Shentox/Shentox.ttf');
   }
 
 /* 
@@ -148,7 +148,7 @@ Headline Styles
 
 .main-headline
 {
-  background: url('../images/main-headline.jpg') no-repeat;
+  background: url('../assets/images/main-headline.jpg') no-repeat;
   width: 63%;
   float: left;
   height: 100%;
@@ -208,7 +208,7 @@ Headline Styles
 {
   position: relative;
   height: 49%;
-  background: url('../images/sub-headline1.png') no-repeat;
+  background: url('../assets/images/sub-headline1.png') no-repeat;
   background-size: cover;
 }
 
@@ -217,7 +217,7 @@ Headline Styles
   position: relative;
  height: 49%;
  margin-top: 2%;
-  background: url('../images/sub-headline2.jpg') no-repeat;
+  background: url('../assets/images/sub-headline2.jpg') no-repeat;
   background-size: cover;
 }
 
@@ -263,7 +263,6 @@ LATEST NEWS
   padding-right: 10px;
   height: 250px;
   float: left;
-  display: inline-block;
   margin-bottom: 10px;
 
 }
@@ -380,14 +379,12 @@ div.funding-top-top
 }
 
 div.funding-top-top img {
- display: inline-block;
  width: 25%;
  margin: 5px;
  float: left;
 }
 
 .article-decsription{
-  display: inline-block;
     float: left;
     margin-left: 8px;
 }
